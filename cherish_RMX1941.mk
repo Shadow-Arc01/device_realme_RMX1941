@@ -24,8 +24,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/handheld_system_ext.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_system_ext.mk)
 
-# Inherit some common AncientOS stuff
-$(call inherit-product, vendor/ancient/config/common_full_phone.mk)
+# Inherit some common Cherish OS stuff
+$(call inherit-product, vendor/cherish/config/common_full_phone.mk)
 
 # Lawnchair
 $(call inherit-product-if-exists, vendor/lawnchair/lawnchair.mk)
@@ -40,13 +40,9 @@ TARGET_SCREEN_WIDTH := 720
 # Bootanimation
 TARGET_BOOT_ANIMATION_RES := 720
 
-# AncientOS Stuff
-# Face Unlock
+# CherishOS Stuff
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
-ANCIENT_OFFICIAL ?= true
-ANCIENT_WEEABO := true
-#ANCIENT_GAPPS ?= true
 TARGET_INCLUDE_PIXEL_CHARGER  := true
 
 # Device identifier. This must come after all inclusions
