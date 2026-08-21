@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/ancient_RMX1941.mk
+	$(LOCAL_DIR)/cherish_RMX1941.mk
 
 COMMON_LUNCH_CHOICES := \
-        ancient_RMX1941-eng \
-        ancient_RMX1941-user \
-        ancient_RMX1941-userdebug
+        cherish_RMX1941-eng \
+        cherish_RMX1941-user \
+        cherish_RMX1941-userdebug
