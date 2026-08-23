@@ -24,6 +24,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/handheld_system_ext.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_system_ext.mk)
 
+
+CHERISH_VANILLA := true
 # Inherit some common Cherish OS stuff
 $(call inherit-product, vendor/cherish/config/common_full_phone.mk)
 
