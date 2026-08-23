@@ -49,7 +49,7 @@ TARGET_SUPPORTS_QUICK_TAP  := true
 CHERISH_BUILD_TYPE := OFFICIAL
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.cherish.maintainer=Shadow-Arc01(§ØÙMŸÅ)
+    ro.cherish.maintainer=Shadow-Arc01(S0UMY@)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := RMX1941
