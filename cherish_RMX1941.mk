@@ -45,6 +45,10 @@ TARGET_BOOT_ANIMATION_RES := 720
 # CherishOS Stuff
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_INCLUDE_PIXEL_CHARGER  := true
+TARGET_SUPPORTS_QUICK_TAP  := true
+
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.cherish.maintainer=Shadow-Arc01(§ØÙMŸÅ)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := RMX1941
