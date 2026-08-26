@@ -25,8 +25,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/handheld_system_ext.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_system_ext.mk)
 
 
-# Inherit some common superior OS stuff
-$(call inherit-product, vendor/superior/config/common.mk)
+# Inherit some common crdroid stuff
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Lawnchair
 $(call inherit-product-if-exists, vendor/lawnchair/lawnchair.mk)
@@ -41,13 +41,13 @@ TARGET_SCREEN_WIDTH := 720
 # Bootanimation
 TARGET_BOOT_ANIMATION_RES := 720
 
-# SuperiorOS Stuff
+# Crdoid Stuff
 TARGET_FACE_UNLOCK_SUPPORTED := true
-
+TARGET_SUPPORTS_QUICK_TAP := true
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := RMX1941
-PRODUCT_NAME := superior_RMX1941
+PRODUCT_NAME := lineage_RMX1941
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := Realme C2
 PRODUCT_MANUFACTURER := realme
