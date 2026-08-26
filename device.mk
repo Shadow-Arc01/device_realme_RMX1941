@@ -113,6 +113,9 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.0 \
     libsuspend
 
+#AudioFX
+TARGET_EXCLUDES_AUDIOFX := true
+
 # Disable Configstore
 PRODUCT_PACKAGES += \
     disable_configstore
