@@ -25,9 +25,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/handheld_system_ext.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_system_ext.mk)
 
 
-CHERISH_VANILLA := true
-# Inherit some common Cherish OS stuff
-$(call inherit-product, vendor/cherish/config/common_full_phone.mk)
+# Inherit some common superior OS stuff
+$(call inherit-product, vendor/superior/config/common.mk)
 
 # Lawnchair
 $(call inherit-product-if-exists, vendor/lawnchair/lawnchair.mk)
@@ -42,18 +41,13 @@ TARGET_SCREEN_WIDTH := 720
 # Bootanimation
 TARGET_BOOT_ANIMATION_RES := 720
 
-# CherishOS Stuff
+# SuperiorOS Stuff
 TARGET_FACE_UNLOCK_SUPPORTED := true
-TARGET_INCLUDE_PIXEL_CHARGER  := true
-TARGET_SUPPORTS_QUICK_TAP  := true
-CHERISH_BUILD_TYPE := OFFICIAL
 
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.cherish.maintainer=Shadow-Arc01(S0UMY@)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := RMX1941
-PRODUCT_NAME := cherish_RMX1941
+PRODUCT_NAME := superior_RMX1941
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := Realme C2
 PRODUCT_MANUFACTURER := realme
