@@ -46,6 +46,7 @@ vendor/lib/libaudioloudc.so
 vendor/lib/libaudioprimarydevicehalifclient.so
 vendor/lib/libaudiotoolkit_vendor.so
 vendor/lib/libtinycompress.so
+vendor/lib/libtinyxml.so
 vendor/lib64/libaudio_engineer_test.so
 vendor/lib64/libaudio_param_parser-vnd.so
 vendor/lib64/libaudiocompensationfilter_vendor.so
@@ -59,6 +60,7 @@ vendor/lib64/libaudioloudc.so
 vendor/lib64/libaudioprimarydevicehalifclient.so
 vendor/lib64/libaudiotoolkit_vendor.so
 vendor/lib64/libtinycompress.so
+vendor/lib64/libtinyxml.so
 
 # Audio-Hardware
 vendor/bin/hw/android.hardware.audio@5.0-service-mediatek
