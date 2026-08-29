@@ -61,7 +61,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libaudiofoundation.vendor \
     libtinycompress \
-    libtinyxml \
     libalsautils \
     libnbaio_mono
 
