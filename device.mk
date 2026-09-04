@@ -26,12 +26,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 # IMS
 $(call inherit-product, vendor/realme-ims/realme-ims-vendor.mk)
 
-# RealmeDirac
-$(call inherit-product-if-exists, packages/apps/RealmeDirac/dirac.mk)
-
-# Parts
-$(call inherit-product-if-exists, packages/apps/RealmeParts/parts.mk)
-
 # VNDK
 PRODUCT_SHIPPING_API_LEVEL := 28
 
@@ -111,9 +105,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.health@2.0 \
     libsuspend
-
-#AudioFX
-TARGET_EXCLUDES_AUDIOFX := true
 
 # Disable Configstore
 PRODUCT_PACKAGES += \
