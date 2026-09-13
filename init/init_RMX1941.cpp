@@ -47,7 +47,7 @@ void load_RMX1941() {
     property_override("ro.product.system.model", "RMX1941");
     property_override("ro.build.product", "RMX1941");
     property_override("ro.product.device", "RMX1941");
-    property_override("ro.build.description", "raven-user 12 SQ1D.220205.004 8151327 release-keys");
+    property_override("ro.build.description", "full_oppo6762-user 10 QP1A.190711.020 bedd37e98646d3a1 release-keys");
 }
 
 void vendor_load_properties() {
